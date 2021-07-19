@@ -92,6 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         return Text(
                             item.statSync().type.toString() + ' - ' + item.path,
                             style: TextStyle(
+                              decoration: TextDecoration.none,
                               fontSize: 12,
                               color: Colors.white,
                             ));
